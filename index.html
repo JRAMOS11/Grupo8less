@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MPA con Vite + LESS | Inicio</title>
+  </head>
+  <body>
+    
+    <nav class="navbar">
+      <div class="container">
+        <div class="brand">Vite + LESS</div>
+        <button id="menu-toggle" aria-label="Abrir menú">☰</button>
+        <ul id="nav-links">
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./about.html">Acerca</a></li>
+          <li><a href="#cards">Servicios</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    
+    <header class="hero">
+      <div class="container">
+        <div>
+          <h1>Entrega MPA: Navbar, Hero, Cards, Split y Footer</h1>
+          <p>Proyecto base con Vite + LESS. Estructura responsive con variables, mixins y anidación.</p>
+          <div class="cta">
+            <a class="primary" href="#cards">Ver tarjetas</a>
+            <a class="ghost" href="./about.html">Saber más</a>
+          </div>
+        </div>
+        <div class="mock">Área de imagen / ilustración</div>
+      </div>
+    </header>
+
+    
+    <section id="cards" class="cards">
+      <div class="container">
+        <div class="grid">
+          <article class="card">
+            <h3>Velocidad</h3>
+            <p>Vite ofrece recarga instantánea y compilación súper rápida.</p>
+          </article>
+          <article class="card">
+            <h3>LESS</h3>
+            <p>Usa variables, mixins y anidación para mantener estilos limpios.</p>
+          </article>
+          <article class="card">
+            <h3>MPA</h3>
+            <p>Múltiples páginas HTML con entradas independientes para build.</p>
+          </article>
+          <article class="card">
+            <h3>Accesible</h3>
+            <p>Diseño responsive y semántico listo para evaluación.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="split">
+      <div class="container">
+        <div class="text">
+          <h2>Half Inverted Panel</h2>
+          <p>Sección dividida: texto a la izquierda e imagen a la derecha (en móviles se apila).</p>
+          <ul>
+            <li>Layout con grid adaptable</li>
+            <li>Tarjetas con sombras sutiles</li>
+            <li>Variables de color centralizadas</li>
+          </ul>
+        </div>
+        <div class="img">Imagen / Mock</div>
+      </div>
+    </section>
+
+    
+    <footer class="footer">
+      <div class="container">
+        <small>© 2025 Equipo 8 — Proyecto Vite + LESS</small>
+       
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
