@@ -1,8 +1,8 @@
-// vite.config.js
+
 import { resolve } from 'path'
 
 export default {
-  base: '/Grupo8less/',   // ← pon tu repo aquí
+  base: '/Grupo8less/',  
   build: {
     rollupOptions: {
       input: {
